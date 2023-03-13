@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
 body{
     width: 375px;
-    height: 100vh;
     margin: auto;
     overflow-x: hidden;
     background-image: url(./images/bg-mobile.svg);
@@ -21,8 +20,6 @@ body{
 }
 
 main{
-    width: 375px;
-    margin: auto;
     overflow-x: hidden;
     
 }
@@ -81,9 +78,13 @@ main{
     color: white;
 }
 
+footer{
+    margin-bottom: 40px;
+}
+
+
 .social{
     margin-top: 64px;
-    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     gap: 10.86px;
@@ -95,8 +96,6 @@ main{
 
     body{
         width: 1440px;
-        height: 800px;
-        
         margin: auto;
         overflow-x: hidden;
         background-image: url(./images/bg-desktop.svg);
@@ -163,7 +162,7 @@ main{
         position: absolute;
         transition-duration: 0.4s;
         margin-top: 270px;
-        margin-left: 48px;
+        margin-left: 60px;
         width: 200px;
         height: 56px;
         border-radius: 28px;
@@ -183,16 +182,21 @@ main{
         background-color: #E880E8;
         color: white;
     }
+
     
     .social{
         margin-left: 1118px;
         margin-top: 27px;
-        margin-bottom: 40px;
         display: flex;
         flex-direction: row;
         gap: 10.86px;
         justify-content: center;
         
     }
+
+    footer{
+        margin-bottom: 40px;
+    }
+    
 
 }
