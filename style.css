@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+body{
+    width: 375px;
+    height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+    background-image: url(./images/bg-mobile.svg);
+    background-color: #684BB1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#logo{
+    margin-top: 38.2px;
+    margin-bottom: 70px;
+    width: 120px;
+    height: 19px;
+}
+
+main{
+    width: 375px;
+    margin: auto;
+    overflow-x: hidden;
+    
+}
+
+.illustration{
+    width: 295px;
+}
+
+.community{
+    margin-top: 60px;
+    width: 280px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center; 
+
+}
+
+.text{
+    margin-top: 16px;
+    width: 304px;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center; 
+
+}
+
+.register{
+    transition-duration: 0.4s;
+    margin-top: 35px;
+    margin-left: 48px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: #684BB1;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.register:hover{
+    background-color: #E880E8;
+    color: white;
+}
+
+.social{
+    margin-top: 64px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10.86px;
+    justify-content: center;
+    
+}
+
+@media screen and (min-width:1440px) {
+
+    body{
+        width: 1440px;
+        height: 800px;
+        
+        margin: auto;
+        overflow-x: hidden;
+        background-image: url(./images/bg-desktop.svg);
+        background-color: #684BB1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    #logo{
+        margin-top: 80px;
+        margin-bottom: 64px;
+        width: 200px;
+        height: 32px;
+    }
+    
+    main{
+        width: 1440px;
+        margin: auto;
+        
+    }
+    
+    .illustration{
+        width: 695px;
+    }
+    
+    .community{
+        position: absolute;
+        margin-top: -465px;
+        margin-left: 755px;
+        width: 487px;
+        height: 120px;
+        color: white;
+        font-family: 'Poppins';
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+    
+    .text{
+        position: absolute;
+        margin-top: -335px;
+        margin-left: 755px;
+        width: 520px;
+        height: 81px;
+        color: white;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    
+    }
+    
+    .register{
+        position: absolute;
+        transition-duration: 0.4s;
+        margin-top: 270px;
+        margin-left: 48px;
+        width: 200px;
+        height: 56px;
+        border-radius: 28px;
+        border: none;
+        background-color: white;
+        color: #684BB1;
+        font-family: 'Poppins';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+    
+    }
+
+    .register:hover{
+        background-color: #E880E8;
+        color: white;
+    }
+    
+    .social{
+        margin-left: 1118px;
+        margin-top: 27px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 10.86px;
+        justify-content: center;
+        
+    }
+
+}
